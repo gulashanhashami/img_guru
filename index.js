@@ -1,6 +1,4 @@
 var contain=document.getElementById("contain1");
-    // contain.setAttribute("id","contain");
-    // document.querySelector("body").append(contain);
     async function dishes(){
         try{
         let response=await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${name}`)
