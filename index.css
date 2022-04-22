@@ -1,0 +1,117 @@
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+ #nav{
+    width: 100%;
+    height: 57vh;
+    position: absolute;
+    /* background-color: red; */
+}
+#search{
+    position: relative;
+    bottom: 55vh;
+    left: 30%;
+   width: 40%;
+   height: 4vh;
+    background-color: hsla(0,0%,100%,.25);
+    border: 1px solid transparent;
+    outline: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: inherit;
+    padding-left: 8px;
+    border-radius: 3px;
+}
+#sbtn{
+    position: relative;
+    bottom: 55vh;
+    left: 30%;
+    height: 4.8vh;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+}
+#sbtn:hover{
+    color: red;
+}
+#text{
+    position: absolute;
+    top: 7vh; 
+    left: 27.5%;
+    color: rgb(199, 201, 213);
+    font-weight: bold;
+    font-size: 25px;
+}
+#tagsdiv{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 21vh;
+    left: 8%;
+    width: 83%;
+    height: 20.3vh;
+    /* border: 1px solid red; */
+    border-radius: 2px;
+}
+#text1{
+    position: absolute;
+    top: 15vh; 
+    left: 8%;
+    color: rgb(199, 201, 213);
+    font-weight: 600;
+    font-size: 17px;
+}
+#fst{
+    width: 21%;
+    height: 20vh;
+    /* border: 1px solid green;  */
+    border-radius: 3px;
+}
+#second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 78%;
+    height: 20vh;
+    /* border: 1px solid blue; */
+}
+.smalldiv{
+   width: 11.5%;
+height: 20vh;
+/* border: 1px solid red; */
+border-radius: 3px;
+}
+#contain1{
+   position: absolute;
+   top: 48vh;
+   left: 5.5%;
+width: 85%;
+height: 100vh;
+overflow-y: scroll;
+/* height: 650px; */
+display: grid;
+/* overflow-y: scroll; */
+grid-template-columns: repeat(3,33%);
+grid-gap: 2%;
+justify-content: center;
+padding-left: 3%;
+/* font-family: sans-serif; */
+/* border: 1px solid red; */
+}
+#pcontainer{
+position: absolute;
+   top: 57vh;
+width: 100%;
+height: auto;
+ /* border: 1px solid blue; */
+}
+/* #divg{
+   width: 32%;
+  
+} */
+#img1{
+   width: 90%;
+  
+}
